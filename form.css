@@ -1,0 +1,25 @@
+body {
+    background-color: #9a69e1;
+    color: #47429d;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+fieldset:first-child {
+    background-color: #f7b7f3;
+}
+
+form {
+    padding: 10rem;
+}
+
+textarea {
+    resize: none;
+}
+fieldset h2 {
+    padding-left: 15px;
+}

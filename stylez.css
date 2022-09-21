@@ -1,0 +1,17 @@
+* {
+    color: green;
+    background:#EAF6F6;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+div h1 {
+    text-align: center;
+}
+
+.list {
+    display:inline-block;
+}
+
+li:first-child {
+   text-align: center;
+}
