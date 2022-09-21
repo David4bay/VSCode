@@ -29,4 +29,14 @@ li:first-child {
 
 #lists {
     list-style-type: none;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: purple;
+}
+
+#lists:hover {
+    cursor: pointer;
 }
