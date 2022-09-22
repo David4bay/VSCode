@@ -1,5 +1,7 @@
 body {
-    margin-top: 0 auto;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
     background-color: #d8e9f0;
     color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -18,6 +20,13 @@ main {
     margin-top: 15px;
     margin-left: 9px;
 }
+
+main {
+    display: flex;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+}
+
 div.placeholder {
     box-sizing: border-box;
     width: 100%;
@@ -50,18 +59,24 @@ div.placeholder:last-child {
 div section {
     margin-left: 9px;
     padding-bottom: 9px;
-    border-bottom:1px solid #eb586f;
+}
+
+ul.nav {
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    justify-content: space-around;
+    list-style: none;
+    border-top: 1px solid #eb586f;
+    border-bottom: 1px solid #eb586f;
 }
 
 div footer {
     display: flex;
     padding-bottom: 100vh;
+    justify-content: baseline;
 }
 
-footer {
-    align-self: baseline;
-    
-}
 
 /*
 
