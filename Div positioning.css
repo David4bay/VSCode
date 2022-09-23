@@ -21,17 +21,13 @@ main {
     margin-left: 9px;
 }
 
-main {
-    display: flex;
-    border-top-left-radius: 9px;
-    border-top-right-radius: 9px;
-}
-
 div.placeholder {
     box-sizing: border-box;
     width: 100%;
     border-right: 1px solid #eb586f;
     border-bottom: 1px solid #eb586f;
+    border-left: 1px solid #eb586f;
+    border-right: 1px solid #eb586f;
     padding-bottom: 9px;
 }
 
@@ -59,22 +55,65 @@ div.placeholder:last-child {
 div section {
     margin-left: 9px;
     padding-bottom: 9px;
+    width: 100%;
 }
 
 ul.nav {
     display: flex;
     box-sizing: border-box;
     width: 100%;
-    justify-content: space-around;
+    margin-right: 0;
+    justify-content: center;
     list-style: none;
     border-top: 1px solid #eb586f;
     border-bottom: 1px solid #eb586f;
+    border-left: 1px solid #eb586f;
+    border-right: 1px solid #eb586f;
+}
+
+li.items {
+    display: flex;
+    padding: 0 50px;
+    border-right: 1px solid #eb586f;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+li.items:nth-child(5) {
+    display: flex;
+    padding-left: 5px;
+    border-right: none;
+    box-sizing: border-box;
+    min-width: 10%;
+}
+
+li.items:nth-child(4) {
+    padding-left: 2px;
+    padding-right: 75px;
+    min-width: 10%;
+}
+
+li.items:nth-child(3) {
+    padding-left: 0px;
+    min-width: 10%;
+}
+
+li.items:nth-child(2) {
+    padding-left: 0px;
+    min-width: 10%;
+}
+
+li.items:first-child {
+    padding-left: 0px;
+    min-width: 10%;
 }
 
 div footer {
     display: flex;
     padding-bottom: 100vh;
+    margin-left: 9px;
     justify-content: baseline;
+    width: 100%;
 }
 
 

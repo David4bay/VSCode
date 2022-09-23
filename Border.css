@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0;
+    width: max-content;
+    
+}
+
+.box-1 {
+    height: 200px;
+    width: 200px;
+    color: purple;
+    border: 10px solid;
+}
+
+.box-2 {
+    height: 200px;
+    width: 200px;
+    color: red;
+    border: 20px solid;
+    margin-left: 220px;
+}
+
+.box-3 {
+    height: 200px;
+    width: 200px;
+    color: blue;
+    border: 10px solid;
+    margin-left: 460px;
+}
