@@ -11,9 +11,21 @@ form {
     top: 50%;
     left: 50%;
     transform: translate(-49%, -49%);
+    padding: 20px;
+    border-radius: 15px;
 }
 
-fieldset:first-child {
+h4 {
+    margin: 0;
+}
+
+h2 {
+    padding: 5px;
+    border: 1px solid;
+    border-radius: 3px;
+}
+
+form, fieldset:first-child {
     background-color: #f7b7f3;
 }
 
@@ -22,4 +34,10 @@ textarea {
 }
 fieldset h2 {
     padding-left: 15px;
+}
+
+legend {
+    border: 1px solid;
+    border-radius: 3px;
+    padding: 10px;
 }
