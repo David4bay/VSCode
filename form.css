@@ -1,20 +1,20 @@
 body {
     background-color: #9a69e1;
     color: #47429d;
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
 }
 
 form {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-49%, -49%);
 }
 
 fieldset:first-child {
     background-color: #f7b7f3;
-}
-
-form {
-    padding: 10rem;
 }
 
 textarea {
