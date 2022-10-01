@@ -10,8 +10,7 @@
 }
 
 body {
-    display: flex;
-    flex-direction: column;
+    display: inline-flex;
     align-items: center;
     justify-content: center;
     background-color: rgba(74, 34, 255, 0.534)
@@ -23,7 +22,7 @@ main.card-container {
     justify-content: space-between;
     margin-left: 50px;
     margin-top: 250px;
-    width: 1200px;
+    width: 1100px;
     height: 1800px;
     padding: 0;
     background-color: rgba(55, 64, 85);
@@ -74,4 +73,10 @@ div.main-text {
     margin: 0;
     padding: 50px 0;
     border-bottom: 50px solid rgb(186, 115, 189);
+}
+
+div.card-wrapper {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
