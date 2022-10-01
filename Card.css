@@ -1,4 +1,6 @@
-* {
+/* Debugging CSS */
+/* Former Styling Below*/
+/* * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -29,6 +31,24 @@ main.card-container {
     border-radius: 75px;
     border: 6px solid rgba(55, 64, 85);
     color: white;
+    border-top-left-radius: 75px;
+    position: absolute;
+}
+
+main:hover {
+    cursor: pointer;
+}
+
+main:first-child {
+    left: 50px;
+}
+
+main:nth-child(2) {
+
+}
+
+main:last-child {
+    bottom: -1500px;
 }
 
 img {
@@ -75,8 +95,27 @@ div.main-text {
     border-bottom: 50px solid rgb(186, 115, 189);
 }
 
-div.card-wrapper {
+div.hamburger ul {
     display: inline-flex;
-    flex-direction: row;
     justify-content: space-between;
+    background-color: black;
+    color: red;
+    list-style: none;
+    padding-bottom: 5px;
+    position: absolute;
+    top: 1px;
 }
+
+li:hover {
+    cursor: pointer;
+}
+
+li {
+    background-color: white;
+    padding: 15px;
+    border: 10px;
+}
+
+ul {
+    text-align: center;
+}*/
