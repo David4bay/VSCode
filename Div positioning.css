@@ -1,82 +1,187 @@
-body {
-    display: inline-block;
+*, body, html {
     margin: 0;
-    width: 100%;
+    padding: 0;
     background-color: #d8e9f0;
     color: white;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-div.header {
-    background-color: #1e5c83;
+body {
+    position: relative;
+}
+
+div h1 {
+    display: flex;
+    justify-content: center;
+    border: 1px solid #4aa0d5;
+    background-color: #4aa0d5;
+
 }
 
 div.menu-bar {
-    display: flex;
-}
-
-main {
-    margin-top: 15px;
-    margin-left: 9px;
+    display: inline-flex;
+    border: 1px solid #4aa;
+    background-color: #4aa;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
 }
 
 div.placeholder {
-    box-sizing: border-box;
-    width: 100%;
-    border-right: 1px solid #eb586f;
-    border-bottom: 1px solid #eb586f;
-    border-left: 1px solid #eb586f;
-    border-right: 1px solid #eb586f;
-    padding-bottom: 9px;
-}
-
-div.placeholder:last-child {
-    border-right: none;
-}
-
-div.placeholder:nth-child(n) {
-    display: flex;
-    justify-content: center;
-    background-color: #1e5c83;
-    opacity: 90%;
+    background-color: #4aa;
 }
 
 div.placeholder:first-child {
-    border-bottom-left-radius: 5px;
-    border-top-left-radius: 5px;
+    padding-left: 20px;
 }
 
 div.placeholder:last-child {
-    border-bottom-right-radius: 5px;
-    border-top-right-radius: 5px;
+    padding-right: 20px;
 }
 
-div section {
-    margin-left: 9px;
-    padding-bottom: 9px;
+div.header {
+    display: flex;
+    flex-direction: row;
     width: 100%;
 }
 
-div footer {
-    display: flex;
-    padding-bottom: 100vh;
-    margin-left: 9px;
-    justify-content: baseline;
-    width: 100%;
+div.sidebar-left {
+    position: absolute;
+    width: 20%;
+    height: 100vh;
+    background-color: #4aa0d5;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 35px;
 }
 
-ul.nav {
-    display: flex;
-    max-width: 100%;
-    align-items: center;
-    justify-content: space-evenly;
+div.header div.sidebar-right {
+    position: absolute;
+    height: 100vh;
+    width: 20%;
+    right: 0;
+    background-color: #4aa0d5;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 35px;
+}
+
+div.main-header main {
+    position: absolute;
+    width: 58%;
+    background-color: green;
+    left: 21%;
+    padding-top: 35px;
+    padding-bottom: 10.81rem;
+}
+
+div.section-head section {
+    position: absolute;
+    width: 58%;
+    background-color: red;
+    left: 21%;
+    top: 20rem;
+    padding-top: 170px;
+    padding-bottom: 10rem;
+}
+
+span {
+    background-color: red;
+    position: absolute;
+    top: 100px;
+}
+
+div.container ul.nav {
+    display: inline-flex;
+    position: absolute;
+    width: 58%;
     list-style: none;
+    top: 38.805rem;
+    border-bottom: #4aa0d5;
+    left: 21%;
+    background-color: black;
+    justify-content: space-around; 
 }
 
-footer {
-    
+ul.nav li.items {
+    background-color: black;
+    justify-content: space-around;   
 }
+
+div.footer-head footer {
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 40rem;
+    padding-bottom: 26.59%;
+    background-color: black;
+    height: 20vh;
+}
+
+footer span {
+    display: flex;
+    width: 58%;
+    margin-left: 20.8%;
+    background-color: black;
+}
+
 /*
+div.sidebar-left {
+    position: absolute;
+    width: 18%;
+    padding-left: 1%;
+    padding-top: 2%;
+    height: 100vh;
+    padding-right: 1%;
+    border-right: 1px solid #4aa;
+    border-bottom: 1px solid #4aa;
+    background-color: #4aa;
+    border-top: 1px solid white;
+}
+
+div.sidebar-right {
+    width: 18%;
+    position: absolute;
+    top: 3.695rem;
+    height: 100vh;
+    right: 0px;
+    border: 1px solid #4aa;
+    padding-left: 1%;
+    padding-top: 2%;
+    background-color: #4aa;
+    padding-right: 1%;
+    border-top: 1px solid white;
+}
+
+div.main-header main {
+    background-color: #eb586f;
+    position: relative;
+    width: 59.6%;
+    left: 20%;
+    padding-top: 2.3%;
+    height: 100vh;
+    padding-bottom: 10rem;
+    border-left: 2px solid #eb586f;
+}
+
+div section.section-head {
+    background-color: #4aa0d5;
+    height: 100vh;
+    
+    position: relative;
+    bottom: 11rem;
+    border-top: 1px solid #4aa0d5;
+} 
+
+div.main-header main {
+    position: absolute;
+    top: 3.749rem;
+    width: 59.39%;
+    left: 10.6rem;  
+    background-color: #eb586f;
+    right: 9rem;
+    padding-top: 3%;
+}
 
 css styles
 

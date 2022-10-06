@@ -1,0 +1,96 @@
+body {
+    background-color: black;
+    margin: 0;
+
+}
+
+main.grandparent {
+    display: inline-flex;
+    flex-direction: column;
+    width: 1800px;
+    height: 100vh;
+}
+
+section.parent-1 {
+    display: inline-flex;
+    justify-content: space-around;
+    flex-direction: column;
+    border: 4px solid white;
+    background-color: grey;
+    width: 120px;
+    height: 500px;
+    margin-left: 25px;
+}
+
+section.parent-2 {
+    display: inline-flex;
+    justify-content: space-around;
+    flex-direction: column;
+    border: 4px solid white;
+    background-color: grey;
+    width: 120px;
+    height: 500px;
+    margin-left: 25px;
+}
+
+section.parent-2 div {
+    border: 4px solid white;
+    background-color: blue;
+    width: 50px;
+    margin: 35px 25px;
+    height: 100px;
+}
+
+section.parent-3 {
+    display: inline-flex;
+    justify-content: space-around;
+    flex-direction: column;
+    border: 4px solid white;
+    background-color: grey;
+    width: 120px;
+    height: 500px;
+    margin-left: 25px;
+}
+
+section.parent-3 div {
+    border: 4px solid white;
+    background-color: blue;
+    width: 50px;
+    margin: 35px 25px;
+    height: 100px;
+}
+
+section.parent-4 {
+    display: inline-flex;
+    justify-content: space-around;
+    flex-direction: column;
+    border: 4px solid white;
+    background-color: grey;
+    width: 120px;
+    height: 500px;
+    margin-left: 25px;
+}
+
+section.parent-4 div {
+    border: 4px solid white;
+    background-color: blue;
+    width: 50px;
+    margin: 35px 25px;
+    height: 100px;
+}
+
+
+div.child {
+    border: 4px solid white;
+    background-color: blue;
+    width: 50px;
+    margin: 35px 25px;
+    height: 100px;
+}
+
+section.parent-4 .child:last-child {
+    transform: rotate(50deg);
+    position: relative;
+    bottom: 250px;
+    left: 500px;
+}
