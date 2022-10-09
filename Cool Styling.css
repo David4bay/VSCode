@@ -1,0 +1,84 @@
+
+/* Body Styling */
+body {
+    font-size: 15px;
+    font-weight: 600;
+    background-color: #121477;
+    margin: 0;
+}
+
+/* Rotation Effect Styling */
+.rotation {
+    background-color: black;
+    box-shadow: 0 0 10px #5271ff,
+            inset 0 0 10px #5271ff;
+    color: #5e7cff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Rotation Effect Styling */
+.rotation::before, .rotation::after {
+    content: '';
+    border: 2px solid #b5c3ff;
+    border-radius: 5px;
+    position: absolute;
+    top: -5px;
+    bottom: -5px;
+    left: -5px;
+    right: -5px;
+    animation: rotating 3s infinite linear; /*  Animation  */
+}
+
+/* Keyframes Rotation Animation */
+@keyframes rotating {
+    0% {clip-path: inset(96% 0 0 0);}
+    20% {clip-path: inset(0 96% 0 0);}
+    50% {clip-path: inset(0 0 96% 0);}
+    75% {clip-path: inset(0 0 0 96%);}
+    100% {clip-path: inset(96% 0 0 0);}
+}
+
+/* Rotation Animation */
+.rotation::after {
+    animation-delay: 1.5s;
+}
+
+/* Button Styling */
+button {
+    display: inline-block;
+    margin-top: 2rem;
+}
+
+/* Label Styling */
+label {
+    display: inline-block;
+}
+
+/* Fieldset Styling */
+fieldset {
+    padding-bottom: 10px;
+}
+
+/*Input Styling */
+input {
+    margin-top: 10px;
+}
+
+/* Label Styling */
+label {
+    padding-top: 10px;
+}
+
+/* Form Styling */
+form {
+    position: relative;
+    padding-bottom: 5450px;
+    max-width: 50%;
+    left: 25%;
+    right: 25%;
+    top: 8rem;
+}
