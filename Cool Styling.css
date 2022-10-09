@@ -1,6 +1,6 @@
 
 /* Body Styling */
-body {
+body, div {
     font-size: 15px;
     font-weight: 600;
     background-color: #121477;
@@ -73,12 +73,17 @@ label {
     padding-top: 10px;
 }
 
+/* Div styling */
+div {
+    display: block;
+    width: 100;
+    height: 100vh;
+}
+
 /* Form Styling */
 form {
-    position: relative;
     padding-bottom: 5450px;
     max-width: 50%;
-    left: 25%;
-    right: 25%;
-    top: 8rem;
+    margin: 25% auto;
 }
+
