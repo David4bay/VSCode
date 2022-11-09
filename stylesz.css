@@ -58,3 +58,26 @@ input {
 input.user {
 
 }
+
+footer.container {
+    border-top: 0.5px solid hsla(0, 5%, 20%, 1);
+    margin-top: 50px;
+    background-color: hsla(0, 5%, 20%, 1);
+    color: white;
+}
+
+ul.footer-contain {
+    display: flex;
+    flex-direction: row;
+}
+
+li.footer-items {
+    list-style: none;
+    padding: 5px;
+
+}
+
+li.footer-items.left {
+    float: left;
+    flex-direction: row;
+}
