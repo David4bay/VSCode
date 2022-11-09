@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    height: auto;
+    background-color: hsla(250, 30%, 50%, 1.0);
+    color: white;
+    font-family: Verdana, comic-sans, Tahoma, Arial, Serif;
+    font-size: 16px;
+    font-weight: 100;
+  }
+  
+  h1, p {
+    text-align: center;
+    margin: 25px 45px;
+  }
+  
+  p {
+    font-size: 0.5rem;
+  }
+  
+  form {
+    border: 1px solid #3b3b4f;
+    max-width: 500px;
+    width: 90%;
+    margin: 10px auto;
+    border-radius: 5px;
+    height: auto;
+    background: #3b3b4f;
+    color: white;
+    }
+  
+  input[type="submit"] {
+    display: inline-block;
+    width: 100%; 
+  }
+  
+  label, input, select {
+    display: inline-block;
+  }
+  
+  label, input, select {
+    display: inline-block;
+    width: 100%;
+    padding: 8px 0;
+    margin: 8px 0;
+  }
+  
+  select {
+    padding: 8px;
+  }
+  
+  input {
+    padding-bottom: 10px;
+  }
+  
+  fieldset {
+    margin-right: 25px;
+    margin-left: 25px;
+    margin-top: 15px;
+    border: none;
+  }
+  
+  fieldset:nth-child(2) {
+    margin-top: -10px;
+  }
+  
+  input[type="radio"], label[id="radio"] {    
+    display: inline;
+    width: auto;
+    padding: auto;
+    margin: 8px auto;
+  }
+  
+  label[id="radio"] {
+    padding-left: 10px;
+  }
+  
+  .last-field {
+    margin-top: -10px;
+    margin-bottom: -10px;
+  }
+  
+  label[id="checkbox"] { 
+    display: inline;
+    width: auto;
+    padding-top: auto;
+    margin: 8px 0;
+  }
+  
+input[id="checkbox"] {
+    display: inline-block;
+    width: 10%;
+    padding-top: 0;
+    margin: 8px auto auto -14px;
+  }
+  
+  #fourth-div {
+    margin-top: -10px;
+  }
+  
+  textarea {
+    display: block;
+    width: 100%;
+    min-height: 125px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 35px;
+    resize: vertical;
+  }
+  
+  input[type="submit"] {
+    margin-bottom: 30px;
+    color: white;
+    background: hsla(120, 50%, 45%, 1.0)
+  }

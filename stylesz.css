@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    line-height: 1.25;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(180deg(hsla(213, 55%, 75%, 0.8) 60%), hsla(330, 100%, 71%, 0.8) 40%));
+}
+
+nav.top-nav {
+    display: flex;
+    border: 1px solid black;
+}
+
+nav.top-nav ul {
+    display: flex;
+    border: 1px solid black;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+ul li.list-items {
+    list-style: none;
+}
+
+main {
+    text-align: center;
+    margin: 0 auto;
+}
+
+form {
+    border: 1px solid;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+legend {
+    border-bottom: 0;
+}
+
+input {
+    display: block;
+    margin: 20px auto;
+}
+
+input.user {
+    box-shadow: 0 0 0 0 hsla(213, 55%, 75%, 0.8);
+}

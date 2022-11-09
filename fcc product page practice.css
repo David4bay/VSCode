@@ -1,0 +1,186 @@
+* {
+    font-family: Verdana, Tahoma, sans-serif, comic-sans;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.5;
+  }
+  
+body {
+    color: hsla( 36, 85%, 100%, 0.8);
+    background-color: rgba(125, 120, 140, 100%);
+  }
+  
+#navbar ul {
+    display: inline-flex;
+    border-style: double;
+    border: solid rgba(255, 255, 255, 0.212);
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+ul  {
+    display: flex;
+    justify-content: space-around;
+}
+
+li {
+    list-style: none;
+}
+
+li:not(#search) {
+    margin-top: 20px;
+}
+
+li:first-child {
+    position: relative;
+    bottom: 10px;
+}
+
+#search-link {
+    position: relative;
+    top: -10px;
+}
+
+#btn {
+    margin-left: 12px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+#main-content:not(#div.container) {
+    text-align: center;
+    margin: 15px auto;
+    font-size: smaller;
+    width: 100%;
+}
+
+#main-header {
+    padding: 50px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 15px;
+}
+
+iframe {
+    margin-top: 15px;
+}
+
+section {
+    margin: 20px;
+    padding: 10px;
+}
+
+.div-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 10px;
+    height: 500px;
+    width: 100%;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+#content {
+    height: 460px;
+    width: 250px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+    background:hsla( 36, 85%, 100%, 0.8);
+}
+
+.pic {
+    width: 100%;
+    object-fit: contain;
+    border-radius: 5px;
+}
+
+p.card-body {
+    background:rgba(0, 0, 0, 0.425);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+button.card-button {
+    margin: 8px;
+    width: 90px;
+    border-radius: 5px;
+    background-color: hsla(271, 47%, 66%, 0.8);
+}
+
+fieldset {
+    padding: 10px;
+    width: 100%;
+    border: none;
+}
+
+label[for="name"] {
+    position: relative;
+    top: 10px;
+}
+
+input[type="text"] {
+    display: block;
+    margin: 5px auto;
+    border-radius: 10px;
+}
+
+input[type="email"] {
+    display: block;
+    margin: 5px auto;
+    border-radius: 10px;
+}
+
+input[type="submit"] {
+    width: 75px;
+    border-radius: 5px;
+    vertical-align: bottom;
+    background-color: hsla(271, 47%, 66%, 0.8);
+}
+
+section:last-child {
+    margin: 10px auto;
+    width: auto;
+    
+}
+
+footer {
+    display: block;
+    text-align: center;
+}
+
+@media (max-width: 958px) {
+    main {
+        margin: 0 auto;
+        text-align: center;
+        box-sizing: content-box;
+    }
+
+    .div-container {
+        display: flex;
+        flex-direction: column;
+}
+}
+/* colors 
+  
+  hsla(255, 72%, 36%, 0.5); background.
+  rgba(125, 120, 140, 100%);
+  hsla( 36, 85%, 100%, 0.8); color.
+*/
+  
+  
