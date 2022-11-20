@@ -5,11 +5,11 @@
 
 html, body {
     margin: 0;
-    padding: 0;
+    width: 100%;
 }
 
 body {
-    background: linear-gradient(180deg(hsla(213, 55%, 75%, 0.8) 60%), hsla(330, 100%, 71%, 0.8) 40%));
+    background: linear-gradient(180deg, hsla(213, 55%, 75%, 0.8) 60%, hsla(330, 100%, 71%, 0.8) 40%));
 }
 
 nav.top-nav {
@@ -39,6 +39,34 @@ main {
     margin: 0 auto;
 }
 
+div.card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 700px;
+    width: 90%;
+    margin: 40px auto;
+    padding: 25px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+div.card-items {
+    display: flex;
+    height: 400px;
+    width: 100px;
+    font-size: small;
+    border: 1px solid gray;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+p.card-p {
+    display: inline-block;
+}
+
 form {
     border: 1px solid;
     padding: 15px;
@@ -66,18 +94,3 @@ footer.container {
     color: white;
 }
 
-ul.footer-contain {
-    display: flex;
-    flex-direction: row;
-}
-
-li.footer-items {
-    list-style: none;
-    padding: 5px;
-
-}
-
-li.footer-items.left {
-    float: left;
-    flex-direction: row;
-}

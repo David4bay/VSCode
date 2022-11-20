@@ -1,0 +1,98 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Tahoma, sans-serif;
+    font-size: 0.7rem;
+    overflow-x: hidden;
+    min-height: 100vh;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: linear-gradient(#e66465, #9198e5);
+    color: #ffffff;
+  }
+  
+  h1 {
+    text-align: center;
+    margin: 15px auto 0 auto;
+    font-size: 10rem;
+    text-shadow: 0px 80px 5px;
+    animation: h1-play alternate 4s infinite;
+  }
+  
+  nav.nav-bar {
+    margin-top: 15px;
+    border: 1px solid white;
+    border-left: none;
+    border-right: none;
+    border-top-color: black;
+    box-shadow: 0px 1px 5px 0;
+  }
+  
+  ul.nav-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  li.nav-elements {
+    list-style: none;
+    padding: 8px;
+    margin: 10px 0;
+    font-size: 1.7em;
+    font-family: Tahoma, sans-serif;
+    background-color: hsla(1, 60%, 55%, 0.8);
+    border-radius: 12px;
+    transition: 0.4s;
+  }
+  
+  li.nav-elements:hover {
+    background-color: hsla(1, 35%, 30%, 0.8);
+  }
+  
+  a.nav-link {
+    text-decoration: none;
+    color: white;
+  }
+  
+  div.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 80%;
+    border: 1px solid white;
+    margin: 100px auto;
+    border-radius: 15px;
+    flex-wrap: wrap;
+    padding: 25px;
+    box-shadow: 0px 1px 5px 1px;
+  }
+  
+  div.cards {
+    display: flex;
+    margin: 15px;
+    height: 400px;
+    width: 275px;
+    border: 1px solid white;
+    border-radius: 15px;
+    box-shadow: 0px 5px 10px 0px;
+  }
+  
+  @keyframes h1-play {
+    0% {
+      color: white;
+    }
+    25% {
+      color: hsla(1, 60%, 55%, 0.8);
+    }
+    50% {
+      color: hsla(1, 60%, 55%, 0.8);
+    }
+    75% {
+      color: hsla(1, 60%, 55%, 0.8);
+    }
+    100% {
+      color: hsla(1, 60%, 55%, 0.8);
+    }
+  }
