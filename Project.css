@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap");
+* {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+*::before, *::after {
+  box-sizing: border-box;
+}
+
+html, body {
+  min-height: 100vh;
+}
+
+body {
+  background: linear-gradient(60deg, hsla(0deg, 0%, 0%, 0.795), hsla(0deg, 0%, 0%, 0.915));
+  font-family: "Titillium Web", sans-serif;
+  line-height: 1.6;
+  color: #ffffff;
+}
+
+main {
+  overflow-x: hidden;
+}
+main nav ul {
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 1rem;
+  margin-top: 1rem;
+  color: #ffffff;
+  font-size: 0.8em;
+  font-weight: normal;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5960784314);
+  box-shadow: -5px 0px 1px 1px black;
+}
+main nav li.list-items {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  padding: 0.7rem;
+  font-size: 7.5em;
+  margin: 0;
+}
+main nav li.list-items:first-child {
+  display: flex;
+  width: 60%;
+  justify-self: flex-start;
+}
+main nav li.list-items:not(li.list-items:first-child) {
+  display: flex;
+  text-align: right;
+  width: 20%;
+  justify-self: flex-end;
+}
+main header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 10rem;
+  flex-wrap: wrap;
+  padding: 5rem;
+  font-size: 12rem;
+  color: #ffffff;
+  background: linear-gradient(60deg, hsla(0deg, 0%, 0%, 0.795), hsla(0deg, 0%, 0%, 0.915));
+}
+main header h1 {
+  display: block;
+  width: 100%;
+  line-height: 1.4;
+}
+main header img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  flex-direction: row;
+}
+main article {
+  display: block;
+  width: 100%;
+}
+main section.left {
+  float: left;
+  width: 45%;
+}
+main section.right {
+  float: right;
+  width: 45%;
+}
+main article section {
+  font-size: 10em;
+  margin: 0.2em;
+  padding: 0.5em;
+}
+main article.full {
+  width: 100%;
+  margin: 0.2em;
+  padding: 0.5em;
+}
+main section.full {
+  clear: both;
+  width: 100%;
+}
+main form {
+  display: block;
+  width: 80%;
+  margin: 1rem auto;
+  border: 1px solid #ffffff;
+  clear: both;
+  padding: 1rem;
+  margin-bottom: 5rem;
+  border-radius: 0.5rem;
+  background: linear-gradient(1turn, hsla(0deg, 0%, 0%, 0.24), hsla(0deg, 55%, 50%, 0.7));
+}
+main form legend {
+  padding: 0.6em;
+  text-align: center;
+}
+main form fieldset {
+  border-radius: 0.5rem;
+  padding: 8em;
+  text-align: center;
+  margin: 1rem auto;
+}
+main form label {
+  padding: 1.2rem;
+}
+main form input {
+  display: block;
+  width: 60%;
+  margin: auto;
+  border-radius: 0.5rem;
+}
+main form input[type=submit] {
+  width: 8rem;
+  padding: 2em;
+  border-radius: 0.5rem;
+  color: hsla(0deg, 0%, 0%, 0.993);
+}
+main form input::-moz-placeholder {
+  color: hsla(0deg, 0%, 0%, 0.451);
+  padding-left: 0.5rem;
+}
+main form input:-ms-input-placeholder {
+  color: hsla(0deg, 0%, 0%, 0.451);
+  padding-left: 0.5rem;
+}
+main form input::placeholder {
+  color: hsla(0deg, 0%, 0%, 0.451);
+  padding-left: 0.5rem;
+}
+main form input[type=checkbox] {
+  display: inline-block;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0.5rem auto;
+  margin-right: 0.3rem;
+  padding: 0;
+}
+main form label[for=select-info] {
+  display: inline-block;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0.5rem auto;
+  padding: 0;
+  margin-right: 0.3rem;
+}
+main footer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-around;
+  padding: 6rem;
+  background: linear-gradient(4turn, hsla(0deg, 0%, 0%, 0.452), hsla(0deg, 0%, 0%, 0.432));
+}
+main footer nav.lft {
+  display: inline-flex;
+  border: 1px solid white;
+}
+main nav.middle-nav {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 8rem;
+  border: 1px solid white;
+}/*# sourceMappingURL=Project.css.map */

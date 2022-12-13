@@ -1,0 +1,194 @@
+* {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+*::before, *::after {
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+
+%linear-color {
+    background: linear-gradient(60deg, hsla(0, 0%, 0%, 0.24), hsla(0, 0%, 0%, 0.915));
+}
+
+html, body {
+    min-height: 100vh;
+}
+
+
+body {
+   // background: linear-gradient(60deg, hsla(0, 0%, 0%, 0.863), hsla(0, 0%, 0%, 0.897));
+    background: linear-gradient(60deg, hsla(0, 0%, 0%, 0.795), hsla(0, 0%, 0%, 0.915));
+    //background: linear-gradient(3turn, hsla(177, 38%, 38%, 0.5) 10%, hsla(202, 60%, 45%, 0.8) 90%);
+    font-family: 'Titillium Web', sans-serif;
+    line-height: 1.6;
+    color: #ffffff;
+}
+
+
+main {
+    overflow-x: hidden;
+    nav {
+        ul {
+            display: flex;
+            list-style: none;
+            flex-direction: row;
+            justify-content: space-around;
+            gap: 1rem;
+            margin-top: 1rem;
+            color: #ffffff;
+            font-size: 0.8em;
+            font-weight: normal;
+            border-bottom: 1px solid #00000098;
+            box-shadow: -5px 0px 1px 1px black;
+        }li.list-items {
+            display: flex;
+            flex-direction: row;
+            flex-grow: 1;
+            padding: 0.7rem;
+            font-size: 7.5em;
+            margin: 0;
+        }
+        li.list-items:first-child {
+            display: flex;
+            width: 60%;
+            justify-self: flex-start;
+        }
+        li.list-items:not(li.list-items:first-child) {
+            display: flex;
+            text-align: right;
+            width: 20%;
+            justify-self: flex-end;
+        }
+    }
+    header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 10rem;
+        flex-wrap: wrap;
+        padding: 5rem;
+        font-size: 12rem;
+        color: #ffffff;
+       // color: rgba(0, 0, 0, 0.527);
+        background: linear-gradient(60deg, hsla(0, 0%, 0%, 0.795), hsla(0, 0%, 0%, 0.915));
+        h1 {
+            display: block;
+            width: 100%;
+            line-height: 1.4;
+        }
+        img {
+            object-fit: contain;
+            flex-direction: row;
+        }
+    }
+    article {
+        display: block;
+        width: 100%;
+    }
+    section.left {
+        float: left;
+        width: 45%;
+
+    }
+    section.right {
+        float: right;
+        width: 45%;
+    }
+    article section {
+        font-size: 10em;
+        margin: 0.2em;
+        padding: 0.5em;
+    }
+    article.full {
+        width: 100%;
+        margin: 0.2em;
+        padding: 0.5em;
+    }
+    section.full {
+        clear: both;
+        width: 100%;
+    }
+    form {
+        display: block;
+        width: 80%;
+        margin: 1rem auto;
+        border: 1px solid #ffffff;
+        clear: both;
+        padding: 1rem;
+        margin-bottom: 5rem;
+        border-radius: 0.5rem;
+        background: linear-gradient(1turn, hsla(0, 0%, 0%, 0.24), hsla(0, 55%, 50%, 0.7));
+        legend {
+            padding: 0.6em;
+            text-align: center;
+        }
+        fieldset {
+            border-radius: 0.5rem;
+            padding: 8em;
+            text-align: center;
+            margin: 1rem auto;
+        }
+        label {
+            padding: 1.2rem;
+        }
+        input {
+            display: block;
+            width: 60%;
+            margin: auto;
+            border-radius: 0.5rem;
+        }
+        input[type="submit"] {
+            width: 8rem;
+            padding: 2em;
+            border-radius: 0.5rem;
+            color:hsla(0, 0%, 0%, 0.993);
+        }
+        input::placeholder {
+            color: hsla(0, 0%, 0%, 0.451);
+            padding-left: 0.5rem;
+        }
+        input[type="checkbox"] {
+            display: inline-block;
+            width: fit-content;
+            margin: 0.5rem auto;
+            margin-right: 0.3rem;
+            padding: 0;
+        }
+        label[for="select-info"] {
+            display: inline-block;
+            width: fit-content;
+            margin: 0.5rem auto;
+            padding: 0;
+            margin-right: 0.3rem;
+        }
+    }
+    footer {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+        justify-content: space-around;
+        padding: 6rem;
+        background: linear-gradient(4turn, hsla(0, 0%, 0%, 0.452), hsla(0, 0%, 0%, 0.432));
+    nav.lft {
+        display: inline-flex;
+        border: 1px solid white;
+    }
+    }
+    nav.middle-nav {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 8rem;
+        border: 1px solid white;
+
+    }
+}
